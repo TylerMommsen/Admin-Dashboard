@@ -75,6 +75,27 @@ a {
     align-items: center;
 }
 
+.search-bar {
+    display: flex;
+    padding-left: 100px;
+}
+
+#bar {
+    width: 70%;
+    height: 30px;
+    background-color: #E2E8F0;
+    border: none;
+    border-radius: 20px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 .main-profile-display {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -145,7 +166,7 @@ a {
 }
 
 .main-content-body {
-    background-color: aliceblue;
+    background-color: #E2E8F0;
     border: 1px solid black;
     grid-column: 2 / -1;
     display: grid;
