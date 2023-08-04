@@ -151,6 +151,7 @@ a {
 
 .project-card-description {
     line-height: 1.2em;
+    color: rgb(100, 100, 100);
 }
 
 .project-card-buttons {
@@ -163,20 +164,48 @@ a {
     border: 1px solid black;
     grid-column: 2;
     grid-row: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .announcement-cards-container {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.announcement-heading {
+    font-weight: bold;
+}
+
+.announcement-description {
+    color: rgb(100, 100, 100);
 }
 
 .trending {
     border: 1px solid black;
     grid-column: 2;
     grid-row: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .trending-cards-container {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.trending-card-bio {
+    color: rgb(100, 100, 100);
 }
