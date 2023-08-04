@@ -65,6 +65,53 @@ a {
 .header {
     border: 1px solid black;
     grid-column: 2;
+    display: grid;
+}
+
+.search-section {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.main-profile-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-display-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+#name {
+    font-size: 1.6rem;
+}
+
+.main-profile-display-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.profile-buttons {
+    background-color: #1992D4;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none
 }
 
 .nav {
