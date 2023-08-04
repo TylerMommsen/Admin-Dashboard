@@ -78,11 +78,22 @@ a {
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .search-bar {
     display: flex;
     padding-left: 100px;
+}
+
+#search-icon {
+    margin-right: 20px;
+}
+
+.header-icon {
+    width: 30px;
+    height: 30px;
 }
 
 #bar {
@@ -99,20 +110,38 @@ a {
     align-items: center;
     font-weight: bold;
     font-size: 1.2rem;
+    gap: 40px;
+}
+
+#mini-profile-picture {
+    width: 50px;
+    height: 50px;
 }
 
 .main-profile-display {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .profile-display-name {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
     font-weight: bold;
-    margin-left: 150px;
+    align-items: center;
+}
+
+#large-profile-picture {
+    width: 80px;
+    height: 80px;
+    grid-column: 1;
+    margin-left: 100px;
+}
+
+.greeting {
+    grid-column: 2;
 }
 
 #name {
