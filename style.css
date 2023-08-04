@@ -201,7 +201,7 @@ a {
 .section-title {
     font-size: 1.5rem;
     font-weight: bold;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .projects {
@@ -256,6 +256,18 @@ a {
     gap: 20px;
 }
 
+.project-card-buttons > button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.project-card-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
 .announcements {
     /* border: 1px solid black; */
     grid-column: 2;
@@ -281,6 +293,7 @@ a {
 
 .announcement-description {
     color: rgb(100, 100, 100);
+    font-size: 0.9rem;
 }
 
 .trending {
@@ -289,6 +302,10 @@ a {
     grid-row: 2;
     display: flex;
     flex-direction: column;
+}
+
+#trending {
+    margin-top: 25px;
 }
 
 .trending-cards-container {
